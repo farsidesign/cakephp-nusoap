@@ -14,8 +14,11 @@
         "cakephp/cakephp": "~3.2"
     },
     "autoload": {
+        "classmap": [
+            "lib/nusoap.php"
+        ],
         "psr-4": {
-            "Farsidesign\\NuSoap\\": "lib/nusoap.php"
+            "Farsidesign\\NuSoap": ""
         }
     }
 }
