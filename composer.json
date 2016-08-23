@@ -18,7 +18,7 @@
             "lib/nusoap.php"
         ],
         "psr-4": {
-            "Farsidesign\\NuSoap": ""
+            "Farsidesign\\NuSoap\\": ""
         }
     }
 }
