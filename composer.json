@@ -1,0 +1,24 @@
+{
+    "name": "farsidesign/cakephp-nusoap",
+    "description": "NuSoap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moslem mobarakeh",
+            "email": "moslem@mobarakeh.info"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": "~3.2",
+    },
+    "autoload": {
+        "classmap": [
+            "lib/nusoap.php"
+        ],
+        "psr-4": {
+            "NuSoap\\": ""
+        }
+    }
+}
