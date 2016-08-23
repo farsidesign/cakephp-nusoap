@@ -11,4 +11,5 @@ Installation
 
 Usage
 -----
+use Farsidesign\Nusoap;
 $client = new \SoapClient('wsdlAddress', ['encoding' => 'UTF-8']);
